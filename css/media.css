@@ -1,0 +1,42 @@
+/* // Extra_Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{
+.single_product, .single_product:nth-child(2), .single_product:nth-child(4), .single_product:nth-child(9) {
+    width: 100%;
+    float: none;
+}
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+.single_product .single_product:nth-child(2) .single_product:nth-child(4) .single_product:nth-child(9) {
+    width: 100%;
+    float: none;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{ ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+.color_red {
+    margin-left: 5px;
+}
+.color_black {
+	margin-left: 5px;
+}
+.color_green {
+    margin-left: 5px;
+}
+.prduct_price {
+    font-size: 18px;
+}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{ ... }
